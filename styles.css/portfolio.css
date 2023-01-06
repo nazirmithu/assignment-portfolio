@@ -2,6 +2,7 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* header banner */
 .banner {
     display: flex;
@@ -14,11 +15,45 @@
     color: #151414;
     margin-bottom: 24px;
 }
-.banner-description{
-    color: #444343;   
+
+.banner-description {
+    color: #444343;
     margin-bottom: 16px;
 }
-.banner-sub-description{
+
+.banner-sub-description {
     color: #444343;
     margin-bottom: 8px;
 }
+
+/* my plans section */
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+        
+}
+
+.skill-container {
+    display: flex;
+    padding: 0 50px;
+    gap: 86px;
+    }
+.skill{
+    
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+   }
