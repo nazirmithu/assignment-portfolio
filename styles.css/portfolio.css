@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header banner */
+.banner {
+    display: flex;
+    padding: 100px 322px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.banner-description{
+    color: #444343;   
+    margin-bottom: 16px;
+}
+.banner-sub-description{
+    color: #444343;
+    margin-bottom: 8px;
+}
