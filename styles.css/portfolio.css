@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Work+Sans&display=swap');
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
@@ -23,18 +22,37 @@
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 24px;
+    color: #151414
+}
+
+.hero-sub-title {
+    color: #444343;
+}
+
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 32px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #F15B22;
 }
 
 /* header banner */
 .banner {
     display: flex;
-    padding: 100px 322px;
+    padding: 100px 250px;
     align-items: center;
     justify-content: space-between;
-    }
-.banner-contain{
+}
+
+.banner-contain {
     padding-left: 50px;
 }
+
 .banner-title {
     font-weight: 700;
     font-size: 40px;
@@ -53,9 +71,10 @@
 }
 
 /* my plans section */
-.my-plans{
+.my-plans {
     padding-bottom: 100px;
 }
+
 .my-plans-section-title {
     text-align: center;
     margin-bottom: 50px;
@@ -93,21 +112,42 @@
     font-size: 25px;
     color: #737272;
 }
-.action{
+
+.action {
     background-image: url("../images/watch.png");
     background-repeat: no-repeat;
-    
     margin: 0 100px;
     background-size: contain;
     background-position: center;
-    }
-.inner{
+}
+
+.action-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 59px;
+}
+
+.btn-call {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    text-align: center;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+}
+
+.inner {
     background-image: url("../images/gradient2.png");
     background-repeat: no-repeat;
     padding: 250px 100px;
     background-size: contain;
     background-position: center;
-   }
+}
+
 /* contact section */
 .contact {
     display: flex;
