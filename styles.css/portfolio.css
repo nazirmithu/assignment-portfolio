@@ -119,13 +119,23 @@
     margin: 0 100px;
     background-size: contain;
     background-position: center;
+    
 }
 
+/* action section */
 .action-title {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
     margin-top: 59px;
+}
+
+.inner {
+    background-image: url("../images/gradient2.png");
+    background-repeat: no-repeat;
+    padding: 250px 100px;
+    background-size: contain;
+    background-position: center;
 }
 
 .btn-call {
@@ -140,14 +150,6 @@
     margin-top: 24px;
 }
 
-.inner {
-    background-image: url("../images/gradient2.png");
-    background-repeat: no-repeat;
-    padding: 250px 100px;
-    background-size: contain;
-    background-position: center;
-}
-
 /* contact section */
 .contact {
     display: flex;
@@ -158,7 +160,6 @@
 .contact a {
     text-decoration: none;
 }
-
 
 .section-description {
     color: #FFFFFF;
@@ -183,5 +184,11 @@ input {
     color: #F15B22;
     width: 325px;
     height: 64px;
+}
 
+.sub-section-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
 }
