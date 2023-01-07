@@ -29,7 +29,7 @@
 /* my plans section */
 
 .section-title {
-    text-align: center;
+
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -40,20 +40,48 @@
     font-weight: 700;
     font-size: 30px;
     color: #151414;
-        
+
 }
 
 .skill-container {
     display: flex;
     padding: 0 50px;
     gap: 86px;
-    }
-.skill{
-    
 }
+
+.skill {}
 
 .skill-description {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
-   }
+}
+
+/* contact section */
+.contact {
+    display: flex;
+    padding: 130px 200px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.contact .section-title {
+    text-align: left;
+    }
+
+input {
+
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    height: 64px;
+    width: 170.11px;
+    border-radius: 5px;
+    color: #F15B22;
+    width: 325px;
+    height: 64px;
+
+}
