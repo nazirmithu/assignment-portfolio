@@ -3,6 +3,27 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.hero {
+    display: flex;
+    background-image: url("../images/banner/banner1.png");
+    background-repeat: no-repeat;
+    padding: 250px 100px;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.hero-contain {
+    text-align: right;
+    width: 568px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 65px;
+    padding-bottom: 24px;
+}
+
 /* header banner */
 .banner {
     display: flex;
@@ -28,6 +49,13 @@
 
 /* my plans section */
 
+.my-plans-section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 .section-title {
 
     font-weight: 700;
@@ -45,7 +73,7 @@
 
 .skill-container {
     display: flex;
-    padding: 0 50px;
+    margin-left: 230px;
     gap: 86px;
 }
 
@@ -62,22 +90,21 @@
     display: flex;
     padding: 130px 200px;
     background: #151414;
-    }
+}
 
 .contact a {
     text-decoration: none;
 }
 
-.contact .section-title {
-    text-align: left;
-}
-.section-description{
+
+.section-description {
     color: #FFFFFF;
     margin-top: 16px;
     margin-bottom: 24px;
     margin-right: 331px;
 }
-.section-title{
+
+.section-title {
     color: #F8F8F8;
 }
 
